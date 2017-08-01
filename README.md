@@ -6,8 +6,8 @@ A validator to validate form inputs.
 
 ### Cocoapods
 	
-	`pod 'SVValidator'`
+	pod 'SVValidator'
 
 ### Carthage
 	
-	`github 'vsujan92/SVValidator'`
+	github 'vsujan92/SVValidator'
