@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "992D30831F3061C700B72D31"
-               BuildableName = "SVValidate.framework"
-               BlueprintName = "SVValidate"
+               BuildableName = "SVValidator.framework"
+               BlueprintName = "SVValidator"
                ReferencedContainer = "container:SVValidator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "992D30831F3061C700B72D31"
-            BuildableName = "SVValidate.framework"
-            BlueprintName = "SVValidate"
+            BuildableName = "SVValidator.framework"
+            BlueprintName = "SVValidator"
             ReferencedContainer = "container:SVValidator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "992D30831F3061C700B72D31"
-            BuildableName = "SVValidate.framework"
-            BlueprintName = "SVValidate"
+            BuildableName = "SVValidator.framework"
+            BlueprintName = "SVValidator"
             ReferencedContainer = "container:SVValidator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

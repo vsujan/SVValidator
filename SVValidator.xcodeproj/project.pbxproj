@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		992D30881F3061C800B72D31 /* SVValidate.h in Headers */ = {isa = PBXBuildFile; fileRef = 992D30861F3061C800B72D31 /* SVValidate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		992D308B1F3061C800B72D31 /* SVValidate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992D30841F3061C700B72D31 /* SVValidate.framework */; };
-		992D308C1F3061C800B72D31 /* SVValidate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 992D30841F3061C700B72D31 /* SVValidate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		992D30911F3061DC00B72D31 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CC41F2B896400656833 /* Double+Extension.swift */; };
 		992D30921F3061DC00B72D31 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CC51F2B896400656833 /* Float+Extension.swift */; };
 		992D30931F3061DC00B72D31 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CC61F2B896400656833 /* String+Extension.swift */; };
@@ -21,58 +19,12 @@
 		992D30991F3061DC00B72D31 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CD61F2B896400656833 /* Regex.swift */; };
 		992D309A1F3061DC00B72D31 /* StringLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CD71F2B896400656833 /* StringLength.swift */; };
 		992D309B1F30620B00B72D31 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 992D30871F3061C800B72D31 /* Info.plist */; };
-		99F30CD91F2B896400656833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F30CBC1F2B896400656833 /* Main.storyboard */; };
-		99F30CDA1F2B896400656833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CBD1F2B896400656833 /* ViewController.swift */; };
-		99F30CDB1F2B896400656833 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CBF1F2B896400656833 /* Email.swift */; };
-		99F30CDC1F2B896400656833 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CC01F2B896400656833 /* Name.swift */; };
-		99F30CDD1F2B896400656833 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CC11F2B896400656833 /* Password.swift */; };
-		99F30CDE1F2B896400656833 /* Quantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CC21F2B896400656833 /* Quantity.swift */; };
-		99F30CDF1F2B896400656833 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CC41F2B896400656833 /* Double+Extension.swift */; };
-		99F30CE01F2B896400656833 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CC51F2B896400656833 /* Float+Extension.swift */; };
-		99F30CE11F2B896400656833 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CC61F2B896400656833 /* String+Extension.swift */; };
-		99F30CE21F2B896400656833 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CC71F2B896400656833 /* TextField+Extension.swift */; };
-		99F30CE31F2B896400656833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F30CCA1F2B896400656833 /* Assets.xcassets */; };
-		99F30CE41F2B896400656833 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99F30CCB1F2B896400656833 /* Info.plist */; };
-		99F30CE51F2B896400656833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F30CCC1F2B896400656833 /* LaunchScreen.storyboard */; };
-		99F30CE61F2B896400656833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CCE1F2B896400656833 /* AppDelegate.swift */; };
-		99F30CE71F2B896400656833 /* CharactetSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CD11F2B896400656833 /* CharactetSet.swift */; };
-		99F30CE81F2B896400656833 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CD21F2B896400656833 /* Core.swift */; };
-		99F30CE91F2B896400656833 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CD31F2B896400656833 /* Empty.swift */; };
-		99F30CEA1F2B896400656833 /* EmptySpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CD41F2B896400656833 /* EmptySpace.swift */; };
-		99F30CEB1F2B896400656833 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CD51F2B896400656833 /* Float.swift */; };
-		99F30CEC1F2B896400656833 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CD61F2B896400656833 /* Regex.swift */; };
-		99F30CED1F2B896400656833 /* StringLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F30CD71F2B896400656833 /* StringLength.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		992D30891F3061C800B72D31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 99F30C9E1F2B88FE00656833 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 992D30831F3061C700B72D31;
-			remoteInfo = SVValidate;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		992D30901F3061C800B72D31 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				992D308C1F3061C800B72D31 /* SVValidate.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		992D30841F3061C700B72D31 /* SVValidate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVValidate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		992D30841F3061C700B72D31 /* SVValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		992D30861F3061C800B72D31 /* SVValidate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVValidate.h; sourceTree = "<group>"; };
 		992D30871F3061C800B72D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99F30CA61F2B88FE00656833 /* SVValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F30CBC1F2B896400656833 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		99F30CBD1F2B896400656833 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		99F30CBF1F2B896400656833 /* Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
@@ -104,14 +56,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99F30CA31F2B88FE00656833 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				992D308B1F3061C800B72D31 /* SVValidate.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -136,8 +80,7 @@
 		99F30CA71F2B88FE00656833 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99F30CA61F2B88FE00656833 /* SVValidator.app */,
-				992D30841F3061C700B72D31 /* SVValidate.framework */,
+				992D30841F3061C700B72D31 /* SVValidator.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,9 +199,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		992D30831F3061C700B72D31 /* SVValidate */ = {
+		992D30831F3061C700B72D31 /* SVValidator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 992D308F1F3061C800B72D31 /* Build configuration list for PBXNativeTarget "SVValidate" */;
+			buildConfigurationList = 992D308F1F3061C800B72D31 /* Build configuration list for PBXNativeTarget "SVValidator" */;
 			buildPhases = (
 				992D307F1F3061C700B72D31 /* Sources */,
 				992D30801F3061C700B72D31 /* Frameworks */,
@@ -269,29 +212,10 @@
 			);
 			dependencies = (
 			);
-			name = SVValidate;
-			productName = SVValidate;
-			productReference = 992D30841F3061C700B72D31 /* SVValidate.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		99F30CA51F2B88FE00656833 /* SVValidator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 99F30CB81F2B88FF00656833 /* Build configuration list for PBXNativeTarget "SVValidator" */;
-			buildPhases = (
-				99F30CA21F2B88FE00656833 /* Sources */,
-				99F30CA31F2B88FE00656833 /* Frameworks */,
-				99F30CA41F2B88FE00656833 /* Resources */,
-				992D30901F3061C800B72D31 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				992D308A1F3061C800B72D31 /* PBXTargetDependency */,
-			);
 			name = SVValidator;
-			productName = SVValidator;
-			productReference = 99F30CA61F2B88FE00656833 /* SVValidator.app */;
-			productType = "com.apple.product-type.application";
+			productName = SVValidate;
+			productReference = 992D30841F3061C700B72D31 /* SVValidator.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -304,11 +228,6 @@
 				ORGANIZATIONNAME = "Sujan Vaidya";
 				TargetAttributes = {
 					992D30831F3061C700B72D31 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = N7DN9W93BF;
-						ProvisioningStyle = Automatic;
-					};
-					99F30CA51F2B88FE00656833 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = N7DN9W93BF;
 						ProvisioningStyle = Automatic;
@@ -328,8 +247,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99F30CA51F2B88FE00656833 /* SVValidator */,
-				992D30831F3061C700B72D31 /* SVValidate */,
+				992D30831F3061C700B72D31 /* SVValidator */,
 			);
 		};
 /* End PBXProject section */
@@ -340,17 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				992D309B1F30620B00B72D31 /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99F30CA41F2B88FE00656833 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				99F30CE31F2B896400656833 /* Assets.xcassets in Resources */,
-				99F30CE51F2B896400656833 /* LaunchScreen.storyboard in Resources */,
-				99F30CD91F2B896400656833 /* Main.storyboard in Resources */,
-				99F30CE41F2B896400656833 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,39 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99F30CA21F2B88FE00656833 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				99F30CED1F2B896400656833 /* StringLength.swift in Sources */,
-				99F30CE21F2B896400656833 /* TextField+Extension.swift in Sources */,
-				99F30CEC1F2B896400656833 /* Regex.swift in Sources */,
-				99F30CE71F2B896400656833 /* CharactetSet.swift in Sources */,
-				99F30CE11F2B896400656833 /* String+Extension.swift in Sources */,
-				99F30CDD1F2B896400656833 /* Password.swift in Sources */,
-				99F30CDC1F2B896400656833 /* Name.swift in Sources */,
-				99F30CDF1F2B896400656833 /* Double+Extension.swift in Sources */,
-				99F30CEA1F2B896400656833 /* EmptySpace.swift in Sources */,
-				99F30CE81F2B896400656833 /* Core.swift in Sources */,
-				99F30CDB1F2B896400656833 /* Email.swift in Sources */,
-				99F30CDE1F2B896400656833 /* Quantity.swift in Sources */,
-				99F30CE91F2B896400656833 /* Empty.swift in Sources */,
-				99F30CEB1F2B896400656833 /* Float.swift in Sources */,
-				99F30CE01F2B896400656833 /* Float+Extension.swift in Sources */,
-				99F30CE61F2B896400656833 /* AppDelegate.swift in Sources */,
-				99F30CDA1F2B896400656833 /* ViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		992D308A1F3061C800B72D31 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 992D30831F3061C700B72D31 /* SVValidate */;
-			targetProxy = 992D30891F3061C800B72D31 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		992D308D1F3061C800B72D31 /* Debug */ = {
@@ -548,40 +423,10 @@
 			};
 			name = Release;
 		};
-		99F30CB91F2B88FF00656833 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N7DN9W93BF;
-				INFOPLIST_FILE = "$(SRCROOT)/SVValidator/Resource/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sujanvaidya.SVValidator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		99F30CBA1F2B88FF00656833 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N7DN9W93BF;
-				INFOPLIST_FILE = "$(SRCROOT)/SVValidator/Resource/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sujanvaidya.SVValidator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		992D308F1F3061C800B72D31 /* Build configuration list for PBXNativeTarget "SVValidate" */ = {
+		992D308F1F3061C800B72D31 /* Build configuration list for PBXNativeTarget "SVValidator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				992D308D1F3061C800B72D31 /* Debug */,
@@ -594,15 +439,6 @@
 			buildConfigurations = (
 				99F30CB61F2B88FF00656833 /* Debug */,
 				99F30CB71F2B88FF00656833 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		99F30CB81F2B88FF00656833 /* Build configuration list for PBXNativeTarget "SVValidator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				99F30CB91F2B88FF00656833 /* Debug */,
-				99F30CBA1F2B88FF00656833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
