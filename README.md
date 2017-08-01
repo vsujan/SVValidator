@@ -6,12 +6,12 @@ A validator to validate form inputs.
 
 ### Cocoapods
 	
-	```
+	`
 	pod 'SVValidator'
-	```
+	`
 
 ### Carthage
 	
-	```
+	`
 	github 'vsujan92/SVValidator'
-	```
+	`
