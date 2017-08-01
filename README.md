@@ -221,5 +221,8 @@ let emailValue = "hello@world.com"
 emailValidator.validate(emailValue)
 ```
 
+## Credit
+This project is highly inspired from [this link.](https://owensd.io/2016/11/28/composite-validators-refined)
+
 ## License
 SVValidator is released under MIT license.
